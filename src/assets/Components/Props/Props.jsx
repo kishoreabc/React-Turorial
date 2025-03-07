@@ -1,6 +1,6 @@
 import React from "react";
- import "../../CSS/Props.css";
-
+import "../../CSS/Props.css";
+import PropTypes from "prop-types";
 function Student(props){
     return (
         <>  
@@ -28,6 +28,15 @@ function Student(props){
 
 };
 
-
+Student.defaultProps = {
+    name: "dhgjkj",
+    age: 46,
+    result:  false,
+};
+Student.PropTypes = {
+    name: PropTypes.string,
+    age: PropTypes.number,
+    result: PropTypes.bool,
+};
 
 export default Student;
