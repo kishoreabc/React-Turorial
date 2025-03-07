@@ -29,8 +29,8 @@ function Student(props){
 };
 
 Student.defaultProps = {
-    name: "dhgjkj",
-    age: 46,
+    name: "No Name",
+    age: 0,
     result:  false,
 };
 Student.PropTypes = {
