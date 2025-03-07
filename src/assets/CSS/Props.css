@@ -1,0 +1,9 @@
+.student table{
+    border: 1px solid black;
+    width: 50%;
+    border-collapse: collapse;
+}
+.student th,td{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
